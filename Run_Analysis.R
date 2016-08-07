@@ -92,3 +92,4 @@ write.table(format(aggr.data, scientific=T), "tidy2.txt", row.names=F, col.names
 codebook(aggr.data)
 Write(codebook(aggr.data), file="Codebook.txt")
 colnames(aggr.data)
+str(aggr.data)
