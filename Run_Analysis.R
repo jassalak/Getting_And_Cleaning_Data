@@ -9,11 +9,13 @@ install.packages("data.table")
 install.packages("reshape2")
 install.packages("dplyr")
 install.packages("tidyr")
+install.packages("memisc")
 
 library(data.table)
 library(reshape2)
 library(dplyr)
 library(tidyr)
+library(memisc)
 ########################################################
 #Step One: Merges the training and the test sets to create one data set.
 
@@ -86,4 +88,7 @@ aggr.data <- aggregate(data.mean.std[, 3:ncol(data.mean.std)],by=list(subject = 
 write.table(format(aggr.data, scientific=T), "tidy2.txt", row.names=F, col.names=F, quote=2)
 
 ########################################################
-
+#Create a CodeBook:
+codebook(aggr.data)
+Write(codebook(aggr.data), file="Codebook.txt")
+colnames(aggr.data)
