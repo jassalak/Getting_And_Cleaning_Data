@@ -9,7 +9,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 -----------------------------------------------------------------------------------------------------------
+
 ##Dataset Features
 
 Feature Selection 
@@ -89,7 +91,10 @@ The complete list of variables of each feature vector is available in 'features.
 [56] "fbodygyromeany"           "fbodygyromeanz"           "fbodygyrostdx"            "fbodygyrostdy"            "fbodygyrostdz"           
 [61] "fbodyaccmagmean"          "fbodyaccmagstd"           "fbodybodyaccjerkmagmean"  "fbodybodyaccjerkmagstd"   "fbodybodygyromagmean"    
 [66] "fbodybodygyromagstd"      "fbodybodygyrojerkmagmean" "fbodybodygyrojerkmagstd" 
+
+
 -----------------------------------------------------------------------------------------------------------
+
 
 ###Dataset Structure
 
