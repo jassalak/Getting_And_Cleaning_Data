@@ -1,4 +1,4 @@
-# Getting_And_Cleaning_Data
+# Getting_And_Cleaning_Data_ReadMe
 
 Repository for Course 3 -- R Programming on Coursera
 
@@ -33,25 +33,25 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Good luck!
 
-###Steps
+#Steps
 Load Packages
-#Step One: Merges the training and the test sets to create one data set.
+##Step One: Merges the training and the test sets to create one data set.
 Read Test Files
 Read Train Files
 Merge Into One Frame
-#Step Two: Extracts only the measurements on the mean and standard deviation for each measurement.
+##Step Two: Extracts only the measurements on the mean and standard deviation for each measurement.
 Read Feature File
 Read Only Mean & Standard Deviation
 Subset Mean & SD (Increment by 2 because data has Subjects and Labels)
-#Step Three: Uses descriptive activity names to name the activities in the data set.
+##Step Three: Uses descriptive activity names to name the activities in the data set.
 Read Activity_Labels
 Replace Header With Activity_Labels
-#Step Four: Appropriately labels the data set with descriptive variable names.
+##Step Four: Appropriately labels the data set with descriptive variable names.
 List Of Old Column Names
 Tidy List (By personalizing it, Removing non-alphanumeric characters and lowercasing) 
 Replace Old with New Column Names
 Option Two: I could have replaced the Old Column Names with my own personalized one (see below)
 Output to .Txt File
-#Step Five: From the data set in step 4, creates a second, independent tidy data ("tidy2.txt") set with the average of each variable for each activity and each subject.
+##Step Five: From the data set in step 4, creates a second, independent tidy data ("tidy2.txt") set with the average of each variable for each activity and each subject.
 Find Mean For Each Combination of Subject & Label
 Output to .Txt File
